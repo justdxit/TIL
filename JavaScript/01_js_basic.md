@@ -23,6 +23,7 @@ console.log('Hello, world!')
 
 <br/>
 
+---
 ## 자료형
   >값(value)은 프로그램이 조작할 수 있는 데이터를 의미한다. 값에는 여러 가지 종류가 있으며 이런 값의 종류를 자료형(data type)이라고 한다.
 
@@ -36,3 +37,39 @@ console.log('Hello, world!')
 - 줄 바꿈은 백틱(\`)을 사용  
   ex) \`line1  
   line2\`
+
+  <br/>
+
+### 숫자
+1. parseInt: 문자열을 정수로 타입 변환  
+   ex) parseInt('3월') -> 3
+2. parseFloat: 문자열을 소수로 타입 변환
+3. parseInt(prompt()): 입력 받을 수 있는 창을 띄운다.
+
+<br/>
+
+**NaN**  
+parseInt(prompt());  
+\> "abc" 입력  
+\> 결과는 NaN
+
+<br/>
+
+NaN은 Not a Number의 약어
+typeof NaN을 실행해보면 "number"라는 값이 출력됨
+
+<br/>
+
+제곱: **  
+ex) 2 ** 3  
+\> 8
+
+<br/>
+무한대: Infinity  
+
+ex) 2 / 0  
+
+\> Infinity
+
+-2 / 0  
+\> -Infinity
