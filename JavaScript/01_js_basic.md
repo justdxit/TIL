@@ -135,7 +135,7 @@ typeof NaN을 실행해보면 "number"라는 값이 출력됨
 ```
 >false, ''(빈 문자열), 0, NaN, undefined, null, document.all
 
-이렇게 형 변환 루 false가 되는 값들을 거짓인 값(falsy value)이라고 하고,  
+이렇게 형 변환 후 false가 되는 값들을 거짓인 값(falsy value)이라고 하고,  
 true가 되는 값들은 참인 값(truthy value)이라고 한다.
 
 - ! 연산자의 우선순위는 < 연산자보다 높음  
